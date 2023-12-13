@@ -1,0 +1,21 @@
+.secondnavbar{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    background: linear-gradient(178deg, #5321CA -2.19%, rgba(27, 0, 92, 0.53) 110.15%);
+    box-shadow: 0px 21px 21px 1px rgba(45, 29, 71, 0.53);    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        a{
+            padding: 10px;
+            border-radius: 20px;
+        }
+    }
+    img{
+        width: 100px;
+    }
+}

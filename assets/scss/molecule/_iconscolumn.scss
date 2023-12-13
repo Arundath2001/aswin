@@ -1,0 +1,15 @@
+.iconscolumn{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    max-height: 100px;
+    img{
+        border-radius: 10px;
+        width: 100px;
+        height: 100px !important;
+    }
+    p{
+        font-size: 12px;
+    }
+
+}

@@ -1,0 +1,21 @@
+.banner1{
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    &__side{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        padding: 10px;
+        justify-content: center;
+    }
+    .slide{
+        .iconscolumn{
+            position: relative;
+            top: -140px;
+        }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

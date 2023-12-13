@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  border: 0;
+  padding: 0; }
+
+* {
+  font-family: 'poppins'; }
+
+.button1 a {
+  padding: 8px;
+  background-color: #008cff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px; }
+
+.icontext {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: #48a7f4;
+  padding: 5px;
+  color: white;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  width: 100px; }
+  .icontext a {
+    text-decoration: none;
+    color: white; }
+  .icontext:hover {
+    background-color: lightblue; }
+
+.button2 a {
+  padding: 5px;
+  border: 2px solid #4f4ffa;
+  color: #9b9b9b;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 10px; }
+.button2 a:hover {
+  background-color: #6868fa;
+  color: white; }
+
+.navbar1 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center; }
+  .navbar1 ul {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    list-style: none;
+    align-items: center;
+    margin: 0; }
+    .navbar1 ul a {
+      text-decoration: none;
+      padding: 10px;
+      color: white; }
+    .navbar1 ul a:hover {
+      background-color: white;
+      color: #c4eff5;
+      border-radius: 10px; }
+  .navbar1 input {
+    padding: 10px;
+    border: 2px solid lightblue; }
+  .navbar1 button {
+    padding: 10px;
+    background-color: navy;
+    cursor: pointer;
+    color: white; }
+
+.navbar2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center; }
+  .navbar2 select {
+    background: transparent;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px; }
+
+.slide {
+  height: 100vh !important; }
+  .slide img {
+    height: 100vh !important;
+    border-radius: 20px;
+    width: 100%; }
+
+.iconscolumn {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  max-height: 100px; }
+  .iconscolumn img {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px !important; }
+  .iconscolumn p {
+    font-size: 12px; }
+
+.navbar3 ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none; }
+.navbar3 a {
+  text-decoration: none;
+  color: white; }
+.navbar3 a:hover {
+  background-color: white;
+  color: lightseagreen; }
+
+.banner2cont {
+  display: flex;
+  flex-direction: column;
+  gap: 50px; }
+  .banner2cont__cont1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; }
+    .banner2cont__cont1 h1 {
+      color: grey; }
+    .banner2cont__cont1 h3 {
+      color: black; }
+  .banner2cont__cont2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px; }
+
+.firstnavbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px; }
+
+.secondnavbar {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  background: linear-gradient(178deg, #5321CA -2.19%, rgba(27, 0, 92, 0.53) 110.15%);
+  box-shadow: 0px 21px 21px 1px rgba(45, 29, 71, 0.53);
+  padding: 20px;
+  border-radius: 20px;
+  align-items: center; }
+  .secondnavbar ul {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; }
+    .secondnavbar ul a {
+      padding: 10px;
+      border-radius: 20px; }
+  .secondnavbar img {
+    width: 100px; }
+
+.banner1 {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue; }
+  .banner1__side {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 10px;
+    justify-content: center; }
+  .banner1 .slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .banner1 .slide .iconscolumn {
+      position: relative;
+      top: -140px; }
+
+.totalnavbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; }
+
+.banner2 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: #cdf9cd;
+  padding: 30px;
+  margin: 50px 50px;
+  border-radius: 20px; }
+  .banner2__cont1 {
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: transparent; }
+    .banner2__cont1:hover {
+      transform: scale(1.03);
+      transition: .5s;
+      background-color: white; }
+  .banner2__cont2 {
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: transparent; }
+    .banner2__cont2:hover {
+      transform: scale(1.03);
+      transition: .5s;
+      background-color: white; }
+
+/*# sourceMappingURL=style.css.map */
